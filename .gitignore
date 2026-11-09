@@ -1,0 +1,34 @@
+@'
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Firebase credentials
+serviceAccountKey.json
+**/serviceAccountKey.json
+
+# Dependencies
+node_modules/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Build files
+dist/
+build/
+coverage/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+'@ | Set-Content .gitignore
